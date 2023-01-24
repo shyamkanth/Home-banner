@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+*{padding: 0;margin: 0;}
+.banner-new{background-color: #e6f4f7;font-family: 'Chivo', sans-serif;;padding-top: 30px;padding-bottom: 30PX;}
+.banner-new .row{margin-top: 50px;}
+.banner-new h1{font-size: 25px;font-weight: bold;text-align: center;}
+.banner-new p{text-align: center;}
+.container .col{width: 450px;}
+.badge{margin-left: 50px;height: 20px;width: 120px;}
+.badge .sol{font-size: 9px;font-weight: lighter;}
+.carousel{width: 400px;height: 180px;background-color: #d1e1e6;position: relative;display: flex;padding: 25px;border-radius: 15px;}
+.carousel-item .header{display: flex;}
+.carousel-item .title{font-size: 14px;font-weight: bold;}
+.carousel-item button{color: #8FCC33;border-color: #8FCC33; border-radius: 5px;height: 24px;width: 60px;font-size: 10px;font-weight: bold;padding: 0;margin-right: 10px;}
+.carousel-item i{font-size: 20px;color: #8FCC33;border-color: #8FCC33;top: -15px;}
+.carousel-item .desc{font-size: 13px;}
+.carousel-indicators{top: 83%;}
+.carousel .carousel-indicators button {width: 6px;height: 6px;border-radius: 100%;background-color: black;}
+.seg{margin-bottom: 40px;}
+.scale-seg .img-outline{height: 40px;width: 40px;border: 1px solid #8FCC33;border-radius: 50%;margin-right: 8px;}
+.scale-seg img {display: block;width: 20px;height: 20px;margin-left: auto;margin-right: auto;margin-top: 7px;}
+.scale-seg{margin-right: 20px;align-items: center;}
+.scale-seg .scale{font-size: 13px;font-weight: bold;}
+.scale-seg .sector{font-size: 10px;}
+.seg .trial{width: 100px;background-color: #8FCC33;color: rgb(238, 227, 227);font-size: 10px;padding: 10px;height: 33px;}
+.form img {vertical-align: middle;height: 336px;}
+.form{background-color: white;border-radius: 20px;}
+.form-input{padding: 18px;}
+.form-input h6{font-size: 13px;}
+.form-input .form-info{background-color: lightskyblue;padding-top: 10px;padding-bottom: 10px;padding-left: 30px;padding-right: 30px;border-radius: 13px;color: white;font-size: 13px;}
+.form-radio{margin-top: 20px;}
+.form-radio input[type="radio"]{display: none;}
+.form-radio input[type="radio"]:checked + label{border-color: rgb(61, 178, 224);color: rgb(61, 178, 224);}
+.form-radio label{border: 2px solid lightgray;height: 54px;width: 124px;border-radius: 8px;margin-right: 7px;cursor: pointer;text-align: center;padding-top: 5px;}
+.form-radio img{height: 36px;width: 36px;filter: grayscale(100%);}
+.form-drop{margin-top: 16px;}
+.form-drop select{height: 40px;color: grey;font-size: 12px;}
+.form-button{margin-top: 20px;}
+.form-button button{border: 1px solid #8FCC33;color: #8FCC33;width: 90px;height: 35px;font-size: 13px;border-radius: 6px;}
+.form-button button:hover{background-color: #8FCC33;color: white;}
